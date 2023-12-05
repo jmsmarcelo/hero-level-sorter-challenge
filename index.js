@@ -3,7 +3,7 @@ const nickname = "jmsmarcelo";
 let level = "";
 
 //Laço de repetição, operadores
-for(let i = 1; i < 11000; i = i + 1000) {
+for(let i = 1; i < 11000; i += 1000) {
     //Estruturas de decisões
     if(i <= 1000) {
         level = "Ferro";
