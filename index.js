@@ -1,23 +1,23 @@
 //Variáveis
 const nickname = "jmsmarcelo";
-let level = "";
+let xp = 1;
 
 //Laço de repetição, operadores
-for(let i = 1; i < 11000; i += 1000) {
-    //Estruturas de decisões
-    if(i <= 1000) {
+for(let level = ""; xp < 11000; xp += 1000) {
+    //Estrutura de desisão
+    if(xp <= 1000) {
         level = "Ferro";
-    } else if(i <= 2000) {
+    } else if(xp <= 2000) {
         level = "Bronze";
-    } else if(i <= 6000) {
+    } else if(xp <= 6000) {
         level = "Prata";
-    } else if(i <= 7000) {
+    } else if(xp <= 7000) {
         level = "Ouro";
-    } else if(i <= 8000) {
+    } else if(xp <= 8000) {
         level = "Platina";
-    } else if(i <= 9000) {
+    } else if(xp <= 9000) {
         level = "Ascendente";
-    } else if(i <= 10000) {
+    } else if(xp <= 10000) {
         level = "Imortal";
     } else {
         level = "Radiante";
