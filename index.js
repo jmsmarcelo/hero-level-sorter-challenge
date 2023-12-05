@@ -4,7 +4,7 @@ let xp = 1;
 
 //Laço de repetição, operadores
 for(let level = ""; xp < 11000; xp += 1000) {
-    //Estrutura de desisão
+    //Estrutura de decisão
     if(xp <= 1000) {
         level = "Ferro";
     } else if(xp <= 2000) {
